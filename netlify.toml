@@ -1,0 +1,6 @@
+[build]
+  publish = "build"  # or your build folder if you're using React or similar frameworks
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
